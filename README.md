@@ -58,12 +58,23 @@ SynapseLab 的目标是把这些内容组织成一个动态知识网络，让用
 
 ## 界面预览
 
-当前仓库已经预留截图展示区。后续补入真实页面截图后，建议在这里展示：
+### 首页
 
-- 首页总览
-- 思想熔炉页面
-- 研究工作室页面
-- 学者网络图谱页面
+![SynapseLab Home](docs/assets/screenshots/home.png)
+
+首页用于呈现平台定位、核心理念和整体视觉风格，强调 SynapseLab 的跨学科协作与知识网络属性。
+
+### 研究工作室
+
+![SynapseLab Studio](docs/assets/screenshots/studio.png)
+
+研究工作室页面用于展示跨学科项目的推进状态、成员协作和阶段性任务信息。
+
+### 学者网络
+
+![SynapseLab Network](docs/assets/screenshots/network.png)
+
+学者网络页面用于展示学者、项目与论文之间的关系图谱，是项目最核心的交互页面之一。
 
 截图目录说明见：
 [截图素材说明](docs/assets/screenshots/README.md)
