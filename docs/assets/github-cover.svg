@@ -54,12 +54,12 @@
   <text x="96" y="390" fill="#DDE7FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="24">构建一个以“问题”为原子、跨学科协作为化学键的动态知识网络。</text>
   <text x="96" y="432" fill="#DDE7FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="24">让每一个伟大的猜想，都能找到自己的验证路径。</text>
 
-  <rect x="96" y="490" width="182" height="52" rx="26" fill="#18DB73"/>
-  <text x="187" y="523" text-anchor="middle" fill="#05223D" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="22" font-weight="700">React + CloudBase</text>
+  <rect x="96" y="490" width="246" height="52" rx="26" fill="#18DB73"/>
+  <text x="219" y="523" text-anchor="middle" fill="#05223D" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="20" font-weight="700">React + CloudBase</text>
 
-  <rect x="294" y="490" width="168" height="52" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
-  <text x="378" y="523" text-anchor="middle" fill="#EAF1FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="22" font-weight="600">Scholar Graph</text>
+  <rect x="358" y="490" width="168" height="52" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="442" y="523" text-anchor="middle" fill="#EAF1FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="22" font-weight="600">Scholar Graph</text>
 
-  <rect x="478" y="490" width="150" height="52" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
-  <text x="553" y="523" text-anchor="middle" fill="#EAF1FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="22" font-weight="600">Ideation Lab</text>
+  <rect x="542" y="490" width="150" height="52" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="617" y="523" text-anchor="middle" fill="#EAF1FF" font-family="PingFang SC, SF Pro Display, sans-serif" font-size="22" font-weight="600">Ideation Lab</text>
 </svg>
