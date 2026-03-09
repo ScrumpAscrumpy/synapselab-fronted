@@ -1,14 +1,21 @@
 # SynapseLab
 
+![SynapseLab Cover](docs/assets/github-cover.svg)
+
 SynapseLab 是一个基于 `React + CloudBase` 的跨学科科研协作平台，用来把研究者、科研猜想、研究项目、论文成果和 AI 辅助能力连接到同一个系统里。
+
+## 项目简介
 
 这个项目不是单纯的前端页面集合，而是一套完整的毕业设计工程，包含：
 
-- 可运行的前端网站
+- 可运行的 React 前端网站
 - 基于 CloudBase 云函数的后端能力
 - 数据库模型、初始化数据和权限规则
 - 本地开发文档、CloudBase 部署文档
 - 论文、答辩、测试相关材料
+
+在线演示地址：
+[SynapseLab Online](https://synapse-lab-1ghlp8bp8f847812-1257009542.tcloudbaseapp.com)
 
 ## 项目目标
 
@@ -37,6 +44,18 @@ SynapseLab 的目标是把这些内容组织成一个动态知识网络，让用
 - CloudBase 静态托管上线
 - 论文、测试、部署说明文档
 
+## 核心页面预览说明
+
+当前仓库已经适合展示以下几个核心界面：
+
+- 首页：用于说明平台定位，强调“连接孤岛，催化创新”的核心理念
+- 思想熔炉：用于展示科研猜想的发布、查看和讨论
+- 研究工作室：用于展示跨学科项目的推进与协作
+- 学者网络：用于展示学者、项目、论文之间的关系图谱
+
+更详细的 GitHub 截图建议和文案说明见：
+[GitHub 仓库截图说明](docs/23-GitHub仓库截图说明.md)
+
 ## 项目结构
 
 ```text
@@ -54,18 +73,18 @@ SynapseLab/
 
 ## 建议阅读顺序
 
-1. [项目总览](/Users/scrumpy/Documents/New%20project/SynapseLab/docs/00-%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88.md)
-2. [需求分析](/Users/scrumpy/Documents/New%20project/SynapseLab/docs/01-%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.md)
-3. [系统架构设计](/Users/scrumpy/Documents/New%20project/SynapseLab/docs/02-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.md)
-4. [前端说明](/Users/scrumpy/Documents/New%20project/SynapseLab/web/README.md)
-5. [CloudBase 部署指南](/Users/scrumpy/Documents/New%20project/SynapseLab/docs/10-CloudBase%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md)
+1. [项目总览](docs/00-项目总览.md)
+2. [需求分析](docs/01-需求分析.md)
+3. [系统架构设计](docs/02-系统架构设计.md)
+4. [前端说明](web/README.md)
+5. [CloudBase 部署指南](docs/10-CloudBase部署指南.md)
 
 ## 本地运行
 
 前端开发：
 
 ```bash
-cd "/Users/scrumpy/Documents/New project/SynapseLab/web"
+cd web
 npm install
 npm run dev
 ```
@@ -73,19 +92,19 @@ npm run dev
 前端生产构建：
 
 ```bash
-cd "/Users/scrumpy/Documents/New project/SynapseLab/web"
+cd web
 npm run build
 ```
 
 ## CloudBase 相关目录
 
-- [cloudfunctions](/Users/scrumpy/Documents/New%20project/SynapseLab/cloudfunctions/README.md)：云函数目录，负责后端业务逻辑
-- [database](/Users/scrumpy/Documents/New%20project/SynapseLab/database/README.md)：集合设计、种子数据、正式权限规则
-- [deploy](/Users/scrumpy/Documents/New%20project/SynapseLab/deploy/README.md)：部署步骤、环境变量模板、上线检查清单
+- [cloudfunctions](cloudfunctions/README.md)：云函数目录，负责后端业务逻辑
+- [database](database/README.md)：集合设计、种子数据、正式权限规则
+- [deploy](deploy/README.md)：部署步骤、环境变量模板、上线检查清单
 
 ## 论文与答辩材料
 
-论文和答辩文档集中在 [docs](/Users/scrumpy/Documents/New%20project/SynapseLab/docs/README.md) 中，已经包含：
+论文和答辩文档集中在 [docs](docs/README.md) 中，已经包含：
 
 - 需求分析
 - 架构设计
