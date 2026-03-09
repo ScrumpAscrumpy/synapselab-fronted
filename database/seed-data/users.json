@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Synapse Founder",
+    "avatar": "",
+    "role": "Platform Owner",
+    "bio": "当前为本地模拟登录态，后续接入 CloudBase 匿名登录或正式用户系统。",
+    "skills": ["产品设计", "跨学科协作", "科研平台规划"],
+    "reputation": 88,
+    "points": 1200,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  }
+]

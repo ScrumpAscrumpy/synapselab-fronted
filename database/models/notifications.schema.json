@@ -1,0 +1,12 @@
+{
+  "collection": "notifications",
+  "description": "通知中心消息",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "type", "type": "string", "required": true, "description": "通知类型，例如 comment、invite、project_update" },
+    { "name": "title", "type": "string", "required": true, "description": "通知标题" },
+    { "name": "description", "type": "string", "required": true, "description": "通知内容描述" },
+    { "name": "read", "type": "boolean", "required": true, "description": "是否已读" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" }
+  ]
+}

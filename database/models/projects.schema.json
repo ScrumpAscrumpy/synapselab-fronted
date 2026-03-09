@@ -1,0 +1,20 @@
+{
+  "collection": "projects",
+  "description": "研究工作室项目",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "title", "type": "string", "required": true, "description": "项目名称" },
+    { "name": "summary", "type": "string", "required": true, "description": "项目摘要" },
+    { "name": "objective", "type": "string", "required": true, "description": "项目目标" },
+    { "name": "stage", "type": "string", "required": true, "description": "当前阶段" },
+    { "name": "progress", "type": "number", "required": true, "description": "进度百分比" },
+    { "name": "visibility", "type": "string", "required": true, "description": "public、invite_only、partial_public" },
+    { "name": "ownerId", "type": "string", "required": true, "description": "项目发起人 ID" },
+    { "name": "memberIds", "type": "array<string>", "required": true, "description": "项目成员用户 ID 列表" },
+    { "name": "milestones", "type": "array<object>", "required": false, "description": "项目里程碑" },
+    { "name": "discussionSummary", "type": "string", "required": false, "description": "AI 讨论摘要" },
+    { "name": "nextStep", "type": "string", "required": false, "description": "下一步" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" },
+    { "name": "updatedAt", "type": "date", "required": true, "description": "更新时间" }
+  ]
+}

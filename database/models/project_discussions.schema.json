@@ -1,0 +1,13 @@
+{
+  "collection": "project_discussions",
+  "description": "项目讨论记录",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "projectId", "type": "string", "required": true, "description": "所属项目 ID" },
+    { "name": "authorId", "type": "string", "required": true, "description": "发言用户 ID" },
+    { "name": "content", "type": "string", "required": true, "description": "讨论内容" },
+    { "name": "aiSummary", "type": "string", "required": false, "description": "AI 摘要" },
+    { "name": "helpfulVotes", "type": "number", "required": true, "description": "有帮助票数" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" }
+  ]
+}

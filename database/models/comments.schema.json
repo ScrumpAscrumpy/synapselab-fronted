@@ -1,0 +1,13 @@
+{
+  "collection": "comments",
+  "description": "评论与回复",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "targetType", "type": "string", "required": true, "description": "idea 或 project" },
+    { "name": "targetId", "type": "string", "required": true, "description": "目标内容 ID" },
+    { "name": "authorId", "type": "string", "required": true, "description": "评论人用户 ID" },
+    { "name": "content", "type": "string", "required": true, "description": "评论内容" },
+    { "name": "parentId", "type": "string", "required": false, "description": "父评论 ID，用于回复" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" }
+  ]
+}

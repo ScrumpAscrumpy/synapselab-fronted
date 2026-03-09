@@ -1,0 +1,11 @@
+{
+  "collection": "scholar_network",
+  "description": "学者关系图谱文档，包含学者节点、项目节点及论文节点的基础数据",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "key", "type": "string", "required": true, "description": "固定使用 default 作为默认图谱文档标识" },
+    { "name": "scholars", "type": "array<object>", "required": true, "description": "学者节点列表，包含标签、论文和项目关系" },
+    { "name": "projects", "type": "array<object>", "required": true, "description": "项目节点列表，供图谱项目连接使用" },
+    { "name": "updatedAt", "type": "date", "required": true, "description": "图谱最后更新时间" }
+  ]
+}

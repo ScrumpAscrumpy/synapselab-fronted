@@ -1,0 +1,16 @@
+[
+  {
+    "type": "comment",
+    "title": "你的猜想收到了新评论",
+    "description": "Dr. Aurora Lin 评论了“能否利用真菌菌丝体构建自修复火星栖息地？”",
+    "createdAt": "2026-03-07T01:30:00.000Z",
+    "read": false
+  },
+  {
+    "type": "invite",
+    "title": "你收到一个协作邀请",
+    "description": "中药配伍分子协同效应项目邀请你参与知识图谱结构设计。",
+    "createdAt": "2026-03-07T01:12:00.000Z",
+    "read": false
+  }
+]

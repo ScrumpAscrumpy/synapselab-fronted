@@ -1,0 +1,12 @@
+[
+  {
+    "targetType": "idea",
+    "targetId": "idea-1",
+    "authorId": "user-demo-1",
+    "authorName": "Dr. Aurora Lin",
+    "authorRole": "计算生物学",
+    "content": "这个方向很适合先做小型材料强度实验，再决定是否引入更复杂的火星环境变量。",
+    "parentId": "",
+    "createdAt": "2026-03-07T01:10:00.000Z"
+  }
+]

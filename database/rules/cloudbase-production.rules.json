@@ -1,0 +1,30 @@
+{
+  "read": true,
+  "write": false,
+  "collections": {
+    "users": {
+      "read": true,
+      "write": "auth != null && doc.openid == auth.openid"
+    },
+    "ideas": {
+      "read": true,
+      "write": "auth != null && doc.authorOpenId == auth.openid"
+    },
+    "projects": {
+      "read": "doc.visibility == 'public' || (auth != null && doc.memberOpenIds != null && auth.openid in doc.memberOpenIds)",
+      "write": "auth != null && doc.ownerOpenId == auth.openid"
+    },
+    "comments": {
+      "read": true,
+      "write": "auth != null && doc.authorOpenId == auth.openid"
+    },
+    "project_discussions": {
+      "read": "auth != null && doc.memberOpenIds != null && auth.openid in doc.memberOpenIds",
+      "write": "auth != null && doc.authorOpenId == auth.openid"
+    },
+    "notifications": {
+      "read": "auth != null && doc.receiverOpenId == auth.openid",
+      "write": false
+    }
+  }
+}

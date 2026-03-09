@@ -1,0 +1,11 @@
+{
+  "name": "synapse-lab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SynapseLab interdisciplinary research collaboration platform",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "test": "echo \"Tests will be added after core modules are implemented.\""
+  }
+}

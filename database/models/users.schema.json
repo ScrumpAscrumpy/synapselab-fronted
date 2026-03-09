@@ -1,0 +1,16 @@
+{
+  "collection": "users",
+  "description": "用户资料与身份信息",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "name", "type": "string", "required": true, "description": "用户显示名称" },
+    { "name": "avatar", "type": "string", "required": false, "description": "头像地址" },
+    { "name": "role", "type": "string", "required": true, "description": "平台角色，例如 researcher、student、admin" },
+    { "name": "bio", "type": "string", "required": false, "description": "个人简介" },
+    { "name": "skills", "type": "array<string>", "required": false, "description": "技能标签列表" },
+    { "name": "reputation", "type": "number", "required": true, "description": "信誉分" },
+    { "name": "points", "type": "number", "required": true, "description": "平台积分" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" },
+    { "name": "updatedAt", "type": "date", "required": true, "description": "更新时间" }
+  ]
+}

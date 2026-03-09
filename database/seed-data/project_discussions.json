@@ -1,0 +1,12 @@
+[
+  {
+    "projectId": "project-1",
+    "authorId": "user-demo-1",
+    "authorName": "林",
+    "authorRole": "理论建模",
+    "content": "现阶段建议把实验样本规模控制在可验证区间，不要一开始就追求大而全。",
+    "aiSummary": "",
+    "helpfulVotes": 6,
+    "createdAt": "2026-03-07T01:00:00.000Z"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "synapse-lab-cloudfunctions",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cloud function skeletons for SynapseLab",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Cloud function tests will be added later.\""
+  }
+}

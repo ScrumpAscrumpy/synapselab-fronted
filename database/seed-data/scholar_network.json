@@ -1,0 +1,94 @@
+[
+  {
+    "key": "default",
+    "scholars": [
+      {
+        "id": "scholar-1",
+        "profileKey": "elon@synapse.lab",
+        "name": "Elon M.",
+        "discipline": "系统工程 / 创新策略",
+        "tags": ["复杂系统", "工程管理", "未来研究"],
+        "verified": true,
+        "eligibleForGraph": true,
+        "projectIds": ["project-1"],
+        "papers": [
+          {
+            "id": "paper-scholar-1-1",
+            "title": "Resilient Systems for Extreme Environment Collaboration",
+            "summary": "围绕极端环境中的团队协作与系统韧性展开，为跨学科协作框架提供工程视角。",
+            "url": "https://example.org/papers/scholar-1-1"
+          },
+          {
+            "id": "paper-scholar-1-2",
+            "title": "Human-Machine Decision Loops in Frontier Research",
+            "summary": "讨论前沿研究环境下的人机决策回路设计，强调研究组织中的反馈机制。",
+            "url": "https://example.org/papers/scholar-1-2"
+          }
+        ]
+      },
+      {
+        "id": "scholar-2",
+        "profileKey": "aurora@synapse.lab",
+        "name": "Dr. Aurora Lin",
+        "discipline": "计算生物学",
+        "tags": ["单细胞分析", "蛋白折叠", "实验设计"],
+        "verified": true,
+        "eligibleForGraph": true,
+        "projectIds": ["project-1", "project-2"],
+        "papers": [
+          {
+            "id": "paper-scholar-2-1",
+            "title": "Cross-Disciplinary Protein Folding Workflows",
+            "summary": "提出跨学科蛋白折叠研究工作流，用于衔接实验设计与高性能计算。",
+            "url": "https://example.org/papers/scholar-2-1"
+          },
+          {
+            "id": "paper-scholar-2-2",
+            "title": "Data Bridges Between Genomics and Material Simulation",
+            "summary": "探索基因组数据与材料模拟之间的桥接方式，支撑跨模态科研协作。",
+            "url": "https://example.org/papers/scholar-2-2"
+          }
+        ]
+      },
+      {
+        "id": "scholar-3",
+        "profileKey": "chen@synapse.lab",
+        "name": "Prof. Chen Yue",
+        "discipline": "认知神经科学",
+        "tags": ["脑机接口", "认知实验", "信号处理"],
+        "verified": true,
+        "eligibleForGraph": true,
+        "projectIds": ["project-2"],
+        "papers": [
+          {
+            "id": "paper-scholar-3-1",
+            "title": "Cognitive Signals in Cooperative Research Environments",
+            "summary": "围绕协作研究环境中的认知信号采集与解释展开，强调团队研讨反馈。",
+            "url": "https://example.org/papers/scholar-3-1"
+          },
+          {
+            "id": "paper-scholar-3-2",
+            "title": "Attention Feedback Models for Human Learning Systems",
+            "summary": "研究注意力反馈模型在人类学习系统中的应用，为教育与科研训练提供基础。",
+            "url": "https://example.org/papers/scholar-3-2"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-1",
+        "title": "量子-生物界面能量传递机制研究",
+        "stage": "模拟验证",
+        "summary": "尝试在量子模型与生物体系之间寻找可解释的能量传递模式。"
+      },
+      {
+        "id": "project-2",
+        "title": "中药配伍分子协同效应的跨模态建模",
+        "stage": "资源整合",
+        "summary": "通过知识图谱与机器学习方法描述多成分、多靶点的协同作用路径。"
+      }
+    ],
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  }
+]

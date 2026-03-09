@@ -1,0 +1,23 @@
+[
+  {
+    "id": "project-1",
+    "title": "量子-生物界面能量传递机制研究",
+    "summary": "尝试在量子模型与生物体系之间寻找可解释的能量传递模式，验证是否存在跨尺度机制映射。",
+    "objective": "建立一套同时覆盖理论建模、模拟验证和实验可实施性的跨学科研究框架。",
+    "stage": "模拟验证",
+    "progress": 75,
+    "visibility": "public",
+    "ownerId": "user-demo-1",
+    "memberIds": ["user-demo-1"],
+    "milestones": [
+      { "label": "理论构建", "done": true },
+      { "label": "模拟验证", "done": true },
+      { "label": "实验设计", "done": false },
+      { "label": "数据分析", "done": false }
+    ],
+    "discussionSummary": "当前讨论焦点是模型参数与实验采样之间的对应关系。",
+    "nextStep": "进入实验设计，补齐样本方案与风险清单。",
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  }
+]

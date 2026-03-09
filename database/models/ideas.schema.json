@@ -1,0 +1,23 @@
+{
+  "collection": "ideas",
+  "description": "思想熔炉猜想内容",
+  "fields": [
+    { "name": "_id", "type": "string", "required": true, "description": "CloudBase 自动生成主键" },
+    { "name": "title", "type": "string", "required": true, "description": "猜想标题" },
+    { "name": "summary", "type": "string", "required": true, "description": "猜想摘要" },
+    { "name": "challenge", "type": "string", "required": true, "description": "当前主要难点" },
+    { "name": "opportunity", "type": "string", "required": false, "description": "潜在价值" },
+    { "name": "tags", "type": "array<string>", "required": true, "description": "标签列表" },
+    { "name": "trend", "type": "string", "required": true, "description": "热门、最新、草稿等状态标签" },
+    { "name": "energy", "type": "number", "required": true, "description": "热度或积分下注值" },
+    { "name": "authorId", "type": "string", "required": true, "description": "作者用户 ID" },
+    { "name": "authorName", "type": "string", "required": true, "description": "作者名称快照" },
+    { "name": "authorRole", "type": "string", "required": false, "description": "作者角色快照" },
+    { "name": "aiInsight", "type": "string", "required": false, "description": "AI 初步分析" },
+    { "name": "nextActions", "type": "array<string>", "required": false, "description": "建议下一步动作" },
+    { "name": "relatedDisciplines", "type": "array<string>", "required": false, "description": "相关学科" },
+    { "name": "status", "type": "string", "required": true, "description": "draft、published、archived" },
+    { "name": "createdAt", "type": "date", "required": true, "description": "创建时间" },
+    { "name": "updatedAt", "type": "date", "required": true, "description": "更新时间" }
+  ]
+}
