@@ -1,110 +1,101 @@
 # SynapseLab
 
+[中文说明](README.zh-CN.md)
+
 ![SynapseLab Cover](docs/assets/github-cover.svg)
 
-SynapseLab 是一个基于 `React + CloudBase` 的跨学科科研协作平台，用来把研究者、科研猜想、研究项目、论文成果和 AI 辅助能力连接到同一个系统里。
+SynapseLab is an interdisciplinary research collaboration platform built with `React + CloudBase`. It connects researchers, research ideas, projects, papers, and AI-assisted workflows in a unified knowledge network.
 
-## 项目简介
+## Overview
 
-这个项目是一套完整的全栈协作系统，包含：
+SynapseLab is a full-stack application that includes:
 
-- 可运行的 React 前端网站
-- 基于 CloudBase 云函数的后端能力
-- 数据库模型、初始化数据和权限规则
-- 本地开发文档、CloudBase 部署文档
-- 测试、部署和维护相关文档
+- A production-ready React frontend
+- CloudBase cloud functions for backend logic
+- Database schemas, seed data, and security rules
+- Local development and CloudBase deployment documentation
+- Testing, operations, and maintenance guides
 
-在线演示地址：
+Live demo:
 [SynapseLab Online](https://synapse-lab-1ghlp8bp8f847812-1257009542.tcloudbaseapp.com)
 
-## 项目目标
+## What Problem It Solves
 
-传统科研协作往往存在三个问题：
+Research collaboration often suffers from three recurring issues:
 
-- 灵感分散，猜想难以被持续讨论和验证
-- 学者之间缺少跨学科连接，合作机会难以显现
-- 项目、论文和研究人员之间缺少结构化关系展示
+- ideas are scattered and hard to validate continuously
+- cross-disciplinary researcher connections are difficult to form
+- projects, papers, and people are rarely shown as one structured network
 
-SynapseLab 的目标是把这些内容组织成一个动态知识网络，让用户可以：
+SynapseLab is designed to turn those disconnected pieces into a dynamic knowledge graph so users can:
 
-- 发布科研猜想
-- 在思想熔炉中讨论和筛选问题
-- 创建并推进跨学科研究项目
-- 加入学者网络，建立研究关系图谱
-- 上传论文成果，并与项目和学者身份建立连接
+- publish research ideas
+- discuss and refine hypotheses in the ideation space
+- create and advance interdisciplinary projects
+- join a scholar network and build graph relationships
+- upload papers and connect them to researchers and projects
 
-## 当前已完成内容
+## Implemented Features
 
-- 首页与平台介绍
-- 思想熔炉、猜想详情与发布流程
-- 研究工作室、项目详情与项目关联
-- 学者网络图谱与全屏图谱模式
-- 通知中心、个人中心
-- CloudBase 云函数与数据库基础接入
-- CloudBase 静态托管上线
-- 论文、测试、部署说明文档
+- landing page and platform introduction
+- ideation page, idea details, and idea publishing flow
+- research studio, project details, and project linking flow
+- scholar graph and immersive full-screen graph mode
+- notifications center and profile center
+- CloudBase cloud functions and database integration
+- CloudBase static hosting deployment
+- project documentation for architecture, database, deployment, and testing
 
-## 核心页面预览说明
+## UI Preview
 
-当前仓库已经适合展示以下几个核心界面：
-
-- 首页：用于说明平台定位，强调“连接孤岛，催化创新”的核心理念
-- 思想熔炉：用于展示科研猜想的发布、查看和讨论
-- 研究工作室：用于展示跨学科项目的推进与协作
-- 学者网络：用于展示学者、项目、论文之间的关系图谱
-
-更详细的 GitHub 截图建议和文案说明见：
-[GitHub 仓库截图说明](docs/23-GitHub仓库截图说明.md)
-
-## 界面预览
-
-### 首页
+### Home
 
 ![SynapseLab Home](docs/assets/screenshots/home.png)
 
-首页用于呈现平台定位、核心理念和整体视觉风格，强调 SynapseLab 的跨学科协作与知识网络属性。
+The landing page introduces the platform concept, visual language, and the core message of connecting isolated ideas and accelerating innovation.
 
-### 研究工作室
+### Research Studio
 
 ![SynapseLab Studio](docs/assets/screenshots/studio.png)
 
-研究工作室页面用于展示跨学科项目的推进状态、成员协作和阶段性任务信息。
+The studio page focuses on project progress, interdisciplinary collaboration, and project workspace management.
 
-### 学者网络
+### Scholar Graph
 
 ![SynapseLab Network](docs/assets/screenshots/network.png)
 
-学者网络页面用于展示学者、项目与论文之间的关系图谱，是项目最核心的交互页面之一。
+The scholar graph visualizes the relationship network between researchers, projects, and papers. It is one of the core interaction surfaces of the platform.
 
-截图目录说明见：
-[截图素材说明](docs/assets/screenshots/README.md)
+Screenshot notes:
+[Screenshot Guide](docs/assets/screenshots/README.md)
 
-## 项目结构
+## Repository Structure
 
 ```text
 SynapseLab/
 ├── README.md
-├── web/                # React 前端
-├── cloudfunctions/     # CloudBase 云函数
-├── database/           # 数据库模型、种子数据、权限规则
-├── deploy/             # 部署说明与上线清单
-├── docs/               # 论文、系统设计、测试、答辩材料
-├── materials/          # 原始需求文档、素材与参考资料
-├── tests/              # 测试目录
-└── scripts/            # 辅助脚本说明
+├── README.zh-CN.md
+├── web/                # React frontend
+├── cloudfunctions/     # CloudBase cloud functions
+├── database/           # Schemas, seed data, and rules
+├── deploy/             # Deployment docs and checklists
+├── docs/               # Architecture, design, testing, and project docs
+├── materials/          # Raw materials and reference files
+├── tests/              # Test directory
+└── scripts/            # Supporting scripts and notes
 ```
 
-## 建议阅读顺序
+## Recommended Reading Order
 
-1. [项目总览](docs/00-项目总览.md)
-2. [需求分析](docs/01-需求分析.md)
-3. [系统架构设计](docs/02-系统架构设计.md)
-4. [前端说明](web/README.md)
-5. [CloudBase 部署指南](docs/10-CloudBase部署指南.md)
+1. [Project Overview](docs/00-项目总览.md)
+2. [Requirements Analysis](docs/01-需求分析.md)
+3. [System Architecture](docs/02-系统架构设计.md)
+4. [Frontend Guide](web/README.md)
+5. [CloudBase Deployment Guide](docs/10-CloudBase部署指南.md)
 
-## 本地运行
+## Local Development
 
-前端开发：
+Run the frontend locally:
 
 ```bash
 cd web
@@ -112,29 +103,29 @@ npm install
 npm run dev
 ```
 
-前端生产构建：
+Build for production:
 
 ```bash
 cd web
 npm run build
 ```
 
-## CloudBase 相关目录
+## CloudBase-Related Directories
 
-- [cloudfunctions](cloudfunctions/README.md)：云函数目录，负责后端业务逻辑
-- [database](database/README.md)：集合设计、种子数据、正式权限规则
-- [deploy](deploy/README.md)：部署步骤、环境变量模板、上线检查清单
+- [cloudfunctions](cloudfunctions/README.md): backend business logic implemented as cloud functions
+- [database](database/README.md): collections, seed data, and production rules
+- [deploy](deploy/README.md): deployment steps, environment samples, and launch checklists
 
-## 文档说明
+## Documentation
 
-[docs](docs/README.md) 中包含系统设计、数据库设计、页面设计、部署说明、测试方案等项目文档。
+[docs](docs/README.md) contains system design, database design, page design, deployment instructions, and testing-related documentation for the project.
 
-## 适用场景
+## Use Cases
 
-这个仓库既适合：
+This repository is suitable for:
 
-- 继续开发 SynapseLab 功能
-- 进行 CloudBase 部署与演示
-- 作为跨学科科研协作平台原型持续迭代
+- continued SynapseLab feature development
+- CloudBase deployment and product demos
+- iterative work on an interdisciplinary research collaboration platform
 
-如果你是代码初学者，建议优先看各目录里的 `README.md`，这些内容已经按“小白也能理解”的方式整理过。
+If you are new to the codebase, start with the `README.md` files inside each major directory.
